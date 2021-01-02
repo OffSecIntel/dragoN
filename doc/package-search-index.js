@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.OSI.CentralDB.common.DS.dragoN"},{"l":"com.OSI.CentralDB.common.DS.dragoN.pkgM"},{"l":"com.OSI.CentralDB.common.DS.dragoN.remote"},{"l":"com.OSI.CentralDB.common.DS.dragoN.remote.Client"},{"l":"com.OSI.CentralDB.common.DS.dragoN.remote.Server"},{"l":"com.OSI.CentralDB.common.DS.MutualExclusion"}]
