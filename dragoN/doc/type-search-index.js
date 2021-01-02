@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.OSI.CentralDB.common.DS.dragoN.pkgM","l":"DragON"}]
