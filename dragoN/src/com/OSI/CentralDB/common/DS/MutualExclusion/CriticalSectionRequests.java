@@ -3,18 +3,19 @@
  */
 package com.OSI.CentralDB.common.DS.MutualExclusion;
 
+/**
+ * @author anon_alexdos2010m
+ *
+ */
 import java.net.Socket;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Random;
 
-/**
- * @author anon_alexdos2010m
- *
- */
+
 public class CriticalSectionRequests extends Thread {
 	 static int nodeid;
-	 
+		 
 	public void sendCSRequests(int id) {
 		int cscount = 0;
 
@@ -53,9 +54,9 @@ public class CriticalSectionRequests extends Thread {
 	}
 	
 	
-		public static int randInt(int min, int max) {
-		
-		Random rand = new Random();
+	public static int randInt(int min, int max) {
+
+	    Random rand = new Random();
 
 	    // nextInt is normally exclusive of the top value,
 	    // so add 1 to make it inclusive
@@ -63,4 +64,6 @@ public class CriticalSectionRequests extends Thread {
 
 	    return randomNum;
 	}
+	
+	
 }

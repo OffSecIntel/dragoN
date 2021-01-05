@@ -3,27 +3,27 @@
  */
 package com.OSI.CentralDB.common.DS.MutualExclusion;
 
-import java.sql.Timestamp;
-import java.util.Date;
-
 /**
  * @author anon_alexdos2010m
  *
  */
+
+import java.sql.Timestamp;
+import java.util.Date;
+
+
 public class TimeStamp {
-	
     private static Timestamp instance;
     private static long startTime;
     private static long endTime;
     private static long time;
     
-    public static long getTime() {
+    public static long getTime(){
     	return new Date().getTime();
     }
     
 
     public static long getStartTime() {
-    	
 		return startTime;
 	}
 
@@ -44,10 +44,9 @@ public class TimeStamp {
             instance = new Timestamp(new Date().getTime());
         }
         return instance;
-	}
+    }
     
-    public static void setInstancetoNull() {
+    public static void setInstancetoNull(){
     	instance=null;
     }
-
 }

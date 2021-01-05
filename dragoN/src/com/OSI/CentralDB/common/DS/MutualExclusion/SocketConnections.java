@@ -3,17 +3,18 @@
  */
 package com.OSI.CentralDB.common.DS.MutualExclusion;
 
+/**
+ * @author anon_alexdos2010m
+ *
+ */
 import java.net.Socket;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-/**
- * @author anon_alexdos2010m
- *
- */
+
 public class SocketConnections {
-	
+
 //	static List<Socket> sockets = new ArrayList<>();
 	
 	static Map<Integer,Socket> sockets = new HashMap<Integer, Socket>();
@@ -36,5 +37,4 @@ public class SocketConnections {
 			System.out.println(pairs.getKey() + " = " + pairs.getValue());
 		}
 	}
-
 }
